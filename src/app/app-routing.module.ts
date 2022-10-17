@@ -6,6 +6,10 @@ const routes: Routes = [
   {
     path: '',
     component: EmployeesListComponent,
+  },
+  {
+    path: 'emplyees',
+    component: EmployeesListComponent,
   }
 ];
 

@@ -1,1 +1,25 @@
-<p>employees-list works!</p>
+<div class="container my-5">
+<h1 class="mb-3">Employees</h1>
+<table class="tablw">
+<thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Salary</th>
+        <th>Department</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let employee of employees">
+        <td>{{employee.id}}</td>
+        <td>{{employee.name}}</td>
+        <td>{{employee.email}}</td>
+        <td>{{employee.phone}}</td>
+        <td>{{employee.salary}}</td>
+        <td>{{employee.department}}</td>
+    </tr>
+</tbody>
+</table>
+</div>
